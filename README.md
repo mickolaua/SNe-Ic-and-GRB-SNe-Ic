@@ -6,7 +6,7 @@
 
 ## General info
 
-We extracted Type Ic Supernova (SNe Ia) from the Open Supernova Catalog (OSC). Then, their light curves in V-band were fitted with the Bazin function ([Bazin G. et al., 2009](https://ui.adsabs.harvard.edu/abs/2009A%26A...499..653B/abstract)) to estimate the absolute magnitude at maximum light and the light curve shape parameters.
+We extracted Type Ic Supernovae (SNe Ia) from the Open Supernova Catalog (OSC). Then, their light curves in V-band were fitted with the Bazin function ([Bazin G. et al., 2009](https://ui.adsabs.harvard.edu/abs/2009A%26A...499..653B/abstract)) to estimate the absolute magnitude at maximum light and the light curve shape parameters.
 
 
 ## Content
