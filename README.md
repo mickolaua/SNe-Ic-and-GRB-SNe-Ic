@@ -6,9 +6,7 @@
 
 ## General info
 
-Type Ia Supernovae are widely used to measure distances in the Universe. Despite the recent progress achieved in SN Ia standardization, the Hubble diagram still shows some remaining intrinsic dispersion. The remaining scatter in supernova luminosity could be due to the environmental effects.
-
-In these Jupyter Notebooks we reproduce the Hubble diagram fit with Pantheon supernovae ([Scolnic et al., 2018](https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S/abstract)). We also study how the host morhology term and the galactocentric distance affect the supernova light-curve parameters and the Hubble diagram fit.
+We extracted Type Ic Supernova (SNe Ia) from the Open Supernova Catalog (OSC). Then, their light curves in V-band were fitted with the Bazin function ([Bazin G. et al., 2009](https://ui.adsabs.harvard.edu/abs/2009A%26A...499..653B/abstract)) to estimate the absolute magnitude at maximum light and the light curve shape parameters.
 
 
 ## Content
@@ -21,7 +19,7 @@ In these Jupyter Notebooks we reproduce the Hubble diagram fit with Pantheon sup
 
 ### Code
 
-* `SNIc_LC_dependences.ipynb` – approximation of SNe Ic extracted from the OSC with the Bazin function [Bazin G. et al., 2009](https://ui.adsabs.harvard.edu/abs/2009A%26A...499..653B/abstract) and the visialisation of M_V(delta_m15) dependency in comparison with luminosity-width relation for SNe Ia ([Phillips M., 1993](https://ui.adsabs.harvard.edu/abs/1993ApJ...413L.105P/abstract)).
+* `SNIc_LC_dependences.ipynb` – approximation of SNe Ic extracted from the OSC with the Bazin function and the visialisation of M_V(delta_m15) dependency in comparison with luminosity-width relation for SNe Ia ([Phillips M., 1993](https://ui.adsabs.harvard.edu/abs/1993ApJ...413L.105P/abstract)).
 * `snIc_list.py` – fast visial check of SN Ic light curves. 
 
 ### Plots
